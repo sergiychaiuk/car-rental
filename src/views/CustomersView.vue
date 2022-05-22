@@ -278,14 +278,9 @@
               </div>
 
               <v-card-title
-                class="d-block text-center text-subtitle-1 font-weight-bold line-height pb-0"
+                class="d-block text-break text-center text-subtitle-1 font-weight-bold line-height pb-4"
               >
-                Чаюк Сергій
-              </v-card-title>
-              <v-card-title
-                class="d-block text-center text-subtitle-1 font-weight-bold line-height pt-0"
-              >
-                Олександрович
+                Чаюк Сергій Олександрович
               </v-card-title>
               <v-card-subtitle class="pb-1 text-caption">
                 +380982981083

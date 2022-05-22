@@ -488,69 +488,7 @@
               </div>
 
               <v-card-title
-                class="d-block text-center text-subtitle-1 font-weight-bold line-height"
-              >
-                VW Golf Variant
-              </v-card-title>
-              <v-card-subtitle class="pb-1 text-caption">
-                Універсал
-              </v-card-subtitle>
-              <v-chip color="yellow" class="mb-1" x-small>Эконом</v-chip>
-              <v-img
-                contain
-                height="110"
-                src="http://api-carrental/testimages/Volkswagen-Golf-Variant-272x159-916d.png"
-              ></v-img>
-              <v-card-text class="pb-0">
-                <b class="text-black">31 грн </b>
-                <p class="d-inline text-caption">/доба</p>
-              </v-card-text>
-              <div class="pa-3">
-                <v-btn
-                  class="text-capitalize rounded-lg"
-                  color="yellow"
-                  width="100%"
-                >
-                  Орендувати
-                </v-btn>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="4">
-            <v-card class="text-center pa-3 rounded-lg" hover>
-              <v-card-title
-                class="d-block text-center text-subtitle-1 font-weight-bold line-height"
-              >
-                VW Golf Variant
-              </v-card-title>
-              <v-card-subtitle class="pb-1 text-caption">
-                Універсал
-              </v-card-subtitle>
-              <v-chip color="yellow" class="mb-1" x-small>Эконом</v-chip>
-              <v-img
-                contain
-                height="110"
-                src="http://api-carrental/testimages/Volkswagen-Golf-Variant-272x159-916d.png"
-              ></v-img>
-              <v-card-text class="pb-0">
-                <b class="text-black">31 грн </b>
-                <p class="d-inline text-caption">/доба</p>
-              </v-card-text>
-              <div class="pa-3">
-                <v-btn
-                  class="text-capitalize rounded-lg"
-                  color="yellow"
-                  width="100%"
-                >
-                  Орендувати
-                </v-btn>
-              </div>
-            </v-card>
-          </v-col>
-          <v-col cols="4">
-            <v-card class="text-center pa-3 rounded-lg" hover>
-              <v-card-title
-                class="d-block text-center text-subtitle-1 font-weight-bold line-height"
+                class="d-block text-break text-center text-subtitle-1 font-weight-bold line-height pb-4"
               >
                 VW Golf Variant
               </v-card-title>
