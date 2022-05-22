@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import CarsView from "@/views/CarsView";
+import CustomersView from "@/views/CustomersView";
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,11 @@ const routes = [
     path: "/cars",
     name: "cars",
     component: CarsView,
+  },
+  {
+    path: "/customers",
+    name: "customers",
+    component: CustomersView,
   },
 ];
 
