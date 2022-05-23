@@ -260,18 +260,23 @@
       <v-col cols="8">
         <v-row>
           <v-col>
+            <v-btn class="text-capitalize mr-3" dark color="blue" small>
+              Режим перегляду
+              <v-icon right>mdi-eye</v-icon>
+            </v-btn>
+
             <v-dialog v-model="dialog" persistent max-width="750px">
               <template v-slot:activator="{ on, attrs }">
                 <v-btn
-                  class="text-capitalize mr-3"
+                  class="text-capitalize"
                   dark
-                  color="blue"
+                  color="indigo"
                   small
                   v-bind="attrs"
                   v-on="on"
                 >
-                  Режим перегляду
-                  <v-icon right>mdi-eye</v-icon>
+                  Створити авто
+                  <v-icon right>mdi-plus</v-icon>
                 </v-btn>
               </template>
 
@@ -417,11 +422,6 @@
                 </v-card-actions>
               </v-card>
             </v-dialog>
-
-            <v-btn class="text-capitalize" dark color="indigo" small>
-              Створити авто
-              <v-icon right>mdi-plus</v-icon>
-            </v-btn>
           </v-col>
         </v-row>
         <!--        <v-data-iterator items="">-->
