@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import CarsView from "@/views/CarsView";
 import CustomersView from "@/views/CustomersView";
 import ReservationsView from "@/views/ReservationsView";
+import DirectoriesView from "@/views/DirectoriesView";
 
 Vue.use(VueRouter);
 
@@ -26,6 +27,11 @@ const routes = [
     path: "/reservations",
     name: "reservations",
     component: ReservationsView,
+  },
+  {
+    path: "/directories",
+    name: "directories",
+    component: DirectoriesView,
   },
 ];
 
