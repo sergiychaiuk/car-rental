@@ -23,19 +23,19 @@
               </template>
 
               <v-list>
-                <v-list-item link>
+                <v-list-item link :to="{ name: 'cars' }">
                   <v-list-item-title>Автомобілі</v-list-item-title>
                 </v-list-item>
 
-                <v-list-item link>
+                <v-list-item link :to="{ name: 'customers' }">
                   <v-list-item-title>Користувачі</v-list-item-title>
                 </v-list-item>
 
-                <v-list-item link>
+                <v-list-item link :to="{ name: 'reservations' }">
                   <v-list-item-title>Замовлення</v-list-item-title>
                 </v-list-item>
 
-                <v-list-item link>
+                <v-list-item link :to="{ name: 'directories' }">
                   <v-list-item-title>Довідки</v-list-item-title>
                 </v-list-item>
               </v-list>
